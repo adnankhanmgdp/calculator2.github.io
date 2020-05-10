@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GUI Calculator</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta charset="utf-8">
+</head>
+<body>
+
+<div class="wrapper">
+
+<div class="calculator">
+
+<div class="calculator-header"> 
+<div class="theme-switch-wrapper">
+<label class="theme-switch" for="checkbox">
+<input type="checkbox" id="checkbox" />
+<div class="slider round"></div>
+</label>
+</div>
+</div>
+
+<div class="calculator-body"> 
+<div>
+<h1 id="output">0</h1>
+<br>
+<p id="input"></p>
+</div>
+</div>
+
+<div class="calculator-footer"> 
+<div onclick="calculate('C')" class="symbol"><span>C</span></div>
+<div onclick="calculate('AC')" class="symbol"><span>AC</span></div>
+<div onclick="calculate('%')" class="symbol"><span>%</span></div>
+<div onclick="calculate('/')" class="symbol"><span>/</span></div>
+<div onclick="calculate('7')"><span>7</span></div>
+<div onclick="calculate('8')" ><span>8</span></div>
+<div onclick="calculate('9')" ><span>9</span></div>
+<div onclick="calculate('*')" class="symbol"><span>×</span></div>
+<div onclick="calculate('4')" ><span>4</span></div>
+<div onclick="calculate('5')" ><span>5</span></div>
+<div onclick="calculate('6')"><span>6</span></div>
+<div onclick="calculate('-')" class="symbol"><span>-</span></div>
+<div onclick="calculate('1')"><span>1</span></div>
+<div onclick="calculate('2')"><span>2</span></div>
+<div onclick="calculate('3')"><span>3</span></div>
+<div onclick="calculate('+')" class="symbol"><span>+</span></div>
+<div onclick="calculate('0')"><span>0</span></div>
+<div onclick="calculate('00')"><span>00</span></div>
+<div onclick="calculate('.')"><span>.</span></div>
+<div onclick="calculate('=')" class="symbol-dark"><span>=</span></div>
+</div>
+
+</div>
+
+</div>
+
+<!--Math.js Libary-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.0.0/math.js"></script>
+
+<!--Javascript link-->
+
+<script src="javascript/javascript.js"></script>
+
+</body>
+</html>
+
+<!--time 32:47-->
